@@ -1,0 +1,17 @@
+#$ TITLE: bpressure - modes
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: modes
+#$ AUTHOR: bpressure
+#$ DESCRIPTION: My modes
+
+# aux switch settings
+
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 1300 1700 0 0
+aux 2 2 1 1700 2100 0 0
+aux 3 46 2 1700 2100 0 0
+aux 4 13 3 1700 2100 0 0
+aux 5 35 2 1300 1700 0 0
+

@@ -8,7 +8,7 @@
 	},
 	"repository" : {
 		"type" : "git",
-		"url" : "github.com/betaflight/firmware-presets"
+		"url" : "github.com/bpressure/firmware-presets"
 	},
 	"author" : "The Betaflight open source project.",
 	"license" : "GPL-3.0",

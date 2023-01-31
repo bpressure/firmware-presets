@@ -1,0 +1,36 @@
+#$ TITLE: bpressure - other settings
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY 
+#$ AUTHOR: bpressure
+#$ DESCRIPTION: other stuff  
+
+beacon RX_LOST
+beacon RX_SET 
+set small_angle = 180
+
+
+#$ OPTION BEGIN (UNCHECKED): GPS return to home
+set GPS_PROVIDER = GPS_UBLOX
+set gps_rescue_angle = 60
+set GPS_RESCUE_INITAL_CLIMB = 15 
+set gps_rescue_descent_dist = 200
+set gps_rescue_landing_alt = 5
+set gps_rescue_landing_dist = 10
+set gps_rescue_ground_speed = 2000 
+set gps_rescue_throttle_min = 1100
+set gps_rescue_throttle_max = 1800
+set gps_rescue_ascend_rate = 500
+set gps_rescue_descend_rate = 200
+set gps_rescue_throttle_hover = 1280
+set gps_rescue_sanity_checks = RESCUE_SANITY_ON
+set gps_rescue_min_sats = 6
+set gps_rescue_min_dth = 30
+set gps_rescue_allow_arming_without_fix = ON
+set gps_rescue_alt_mode = MAX_ALT
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS return to home - use MAGNETOMETER
+set gps_rescue_use_mag = ON
+#$ OPTION END
