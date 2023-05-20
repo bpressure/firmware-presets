@@ -1,0 +1,184 @@
+#$ TITLE: bpressure - HDZero MSP OSD
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: HDZero
+#$ AUTHOR: bpressure
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: My own OSD settings for HD-MSP
+
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY 0 0 0 0 0 0 0 0
+vtxtable band 2 BOSCAM_B B FACTORY 0 0 0 0 0 0 0 0
+vtxtable band 3 BOSCAM_E E FACTORY 0 0 0 0 0 0 0 0
+vtxtable band 4 FATSHARK F FACTORY 0 5760 0 5800 0 0 0 0
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 IMD6 I CUSTOM 0 0 0 0 0 0 0 0
+
+#$ OPTION BEGIN (UNCHECKED): all VTXs except unlocked Freestyle and TX5M.1
+    vtxtable powerlevels 3
+    vtxtable powervalues 14 23 0
+    vtxtable powerlabels 25 200 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): unlocked Freestyle
+    vtxtable powerlevels 5
+    vtxtable powervalues 14 23 27 30 0
+    vtxtable powerlabels 25 200 500 MAX 0
+#$ OPTION END
+
+set vcd_video_system = HD 
+set osd_displayport_device = MSP
+set osd_menu_background = GRAY
+
+# master 
+set osd_adjustment_range_pos = 0
+set osd_ah_pos = 0
+set osd_ah_sbar_pos = 0
+set osd_alt_alarm = 0
+set osd_alt_alarm = 0
+set osd_anti_gravity_pos = 0
+set osd_aux_pos = 0
+set osd_battery_usage_pos = 0
+set osd_battery_usage_pos = 0
+set osd_camera_frame_pos = 0
+set osd_crosshairs_pos = 0
+set osd_debug_pos = 0
+set osd_disarmed_pos = 0
+set osd_disarmed_pos = 0
+set osd_efficiency_pos = 0
+set osd_esc_rpm_freq_pos = 0
+set osd_esc_rpm_pos = 0
+set osd_esc_tmp_pos = 0
+set osd_g_force_pos = 0
+set osd_log_status_pos = 0
+set osd_motor_diag_pos = 0
+set osd_nheading_pos = 0
+set osd_pid_pitch_pos = 0
+set osd_pid_profile_name_pos = 0
+set osd_pid_roll_pos = 0
+set osd_pid_yaw_pos = 0
+set osd_pidrate_profile_pos = 0
+set osd_pilot_name_pos = 0
+set osd_pit_ang_pos = 0
+set osd_power_pos = 0
+set osd_profile_name_pos = 0
+set osd_rate_profile_name_pos = 0
+set osd_rcchannels_pos = 0
+set osd_ready_mode_pos = 0
+set osd_remaining_time_estimate_pos = 0
+set osd_rol_ang_pos = 0
+set osd_rsnr_pos = 0
+set osd_rssi_pos = 0
+set osd_rtc_date_time_pos = 0
+set osd_stick_overlay_left_pos = 0
+set osd_stick_overlay_right_pos = 0
+set osd_sys_bitrate_pos = 0
+set osd_sys_delay_pos = 0
+set osd_sys_distance_pos = 0
+set osd_sys_fan_speed_pos = 0
+set osd_sys_goggle_dvr_pos = 0
+set osd_sys_goggle_voltage_pos = 0
+set osd_sys_lq_pos = 0
+set osd_sys_vtx_dvr_pos = 0
+set osd_sys_vtx_temp_pos = 0
+set osd_sys_vtx_voltage_pos = 0
+set osd_sys_warnings_pos = 0
+set osd_tim_1_pos = 0
+set osd_total_flights_pos = 0
+set osd_up_down_reference_pos = 0
+set osd_vtx_channel_pos = 0
+set osd_wh_drawn_pos = 0
+set osd_esc_tmp_pos = 0
+
+set gps_rescue_min_sats = 6
+set gps_rescue_allow_arming_without_fix = ON
+set osd_rssi_alarm = 30
+set osd_cap_alarm = 1200
+set osd_alt_alarm = 400
+set osd_vbat_pos = 6689
+set osd_rssi_pos = 4218
+set osd_link_quality_pos = 6230
+set osd_link_tx_power_pos = 7724
+set osd_rssi_dbm_pos = 6198
+set osd_rsnr_pos = 0
+set osd_tim_1_pos = 449
+set osd_tim_2_pos = 7365
+set osd_remaining_time_estimate_pos = 0
+set osd_flymode_pos = 6184
+set osd_anti_gravity_pos = 0
+set osd_g_force_pos = 569
+set osd_throttle_pos = 6700
+set osd_vtx_channel_pos = 33
+set osd_crosshairs_pos = 0
+set osd_ah_sbar_pos = 0
+set osd_ah_pos = 0
+set osd_current_pos = 6715
+set osd_mah_drawn_pos = 6647
+set osd_wh_drawn_pos = 553
+set osd_motor_diag_pos = 518
+set osd_craft_name_pos = 6152
+set osd_pilot_name_pos = 0
+set osd_gps_speed_pos = 3141
+set osd_gps_lon_pos = 3205
+set osd_gps_lat_pos = 3173
+set osd_gps_sats_pos = 2095
+set osd_home_dir_pos = 2424
+set osd_home_dist_pos = 3077
+set osd_flight_dist_pos = 3109
+set osd_compass_bar_pos = 2069
+set osd_altitude_pos = 3237
+set osd_pid_roll_pos = 33
+set osd_pid_pitch_pos = 65
+set osd_pid_yaw_pos = 97
+set osd_debug_pos = 0
+set osd_power_pos = 0
+set osd_pidrate_profile_pos = 407
+set osd_warnings_pos = 6549
+set osd_avg_cell_voltage_pos = 6615
+set osd_pit_ang_pos = 0
+set osd_rol_ang_pos = 0
+set osd_battery_usage_pos = 16951
+set osd_disarmed_pos = 418
+set osd_nheading_pos = 0
+set osd_up_down_reference_pos = 0
+set osd_ready_mode_pos = 168
+set osd_esc_tmp_pos = 0
+set osd_esc_rpm_pos = 0
+set osd_esc_rpm_freq_pos = 0
+set osd_rtc_date_time_pos = 0
+set osd_adjustment_range_pos = 0
+set osd_flip_arrow_pos = 187
+set osd_core_temp_pos = 2049
+set osd_log_status_pos = 7719
+set osd_stick_overlay_left_pos = 0
+set osd_stick_overlay_right_pos = 0
+set osd_rate_profile_name_pos = 0
+set osd_pid_profile_name_pos = 0
+set osd_profile_name_pos = 0
+set osd_rcchannels_pos = 0
+set osd_camera_frame_pos = 0
+set osd_efficiency_pos = 0
+set osd_total_flights_pos = 0
+set osd_aux_pos = 0
+set osd_sys_goggle_voltage_pos = 0
+set osd_sys_vtx_voltage_pos = 0
+set osd_sys_bitrate_pos = 0
+set osd_sys_delay_pos = 0
+set osd_sys_distance_pos = 0
+set osd_sys_lq_pos = 0
+set osd_sys_goggle_dvr_pos = 1541
+set osd_sys_vtx_dvr_pos = 0
+set osd_sys_warnings_pos = 0
+set osd_sys_vtx_temp_pos = 0
+set osd_sys_fan_speed_pos = 0
+set osd_stat_bitmask = 2106908
+set osd_displayport_device = MSP
+set osd_menu_background = GRAY
+
+set osd_canvas_width = 50
+set osd_canvas_height = 18

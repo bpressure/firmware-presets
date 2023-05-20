@@ -147,6 +147,7 @@
     ],
     "keywords": [
       "DJI",
+      "HDZero",
       "modes"
     ]
   },
@@ -162,6 +163,21 @@
       "status": "COMMUNITY",
       "keywords": [
         "modes"
+      ],
+      "author": "bpressure",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/bpressure_HDZero_MSP.txt",
+      "hash": "865420927e6d6e725825bfa63fda3f7ae10bfa17714cb94af658a3ab30cd6ad3",
+      "title": "bpressure - HDZero MSP OSD",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "HDZero"
       ],
       "author": "bpressure",
       "priority": 0
