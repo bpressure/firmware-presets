@@ -222,6 +222,19 @@
       "status": "COMMUNITY",
       "author": "bpressure",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.4/rates/bpressure30.txt",
+      "hash": "f60e618fd167dbc4fc1aeba07caf9514ffdae02b14e82d52fb8c2e4e10138b84",
+      "title": "bpressure - rates-30d-v2",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "author": "bpressure",
+      "priority": 10000
     }
   ]
 }
