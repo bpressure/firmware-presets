@@ -1,6 +1,6 @@
 #$ TITLE: bpressure - other settings
-#$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY 
 #$ AUTHOR: bpressure
