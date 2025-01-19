@@ -133,9 +133,9 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.3",
       "4.4",
-      "4.5"
+      "4.5",
+      "4.6"
     ],
     "category": [
       "MODES",
@@ -154,11 +154,12 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.4/modes/bpressure_modes.txt",
-      "hash": "d335d0a786ac75850a058a812699018af13864ebb3a4e70e6d48fa02097c5fe1",
+      "fullPath": "presets/4.6/modes/bpressure_modes.txt",
+      "hash": "232a9ed42141ba7ca074bd0d851cb6f3981cea77f24245ae2eea58d20f5d3ffc",
       "title": "bpressure - modes",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
@@ -169,11 +170,12 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/osd/bpressure_HDZero_MSP.txt",
-      "hash": "b5e5cd219c3a241680be4bf36329b75061c3b45d06ddfd4103032b5fadca8682",
+      "fullPath": "presets/4.6/osd/bpressure_HDZero_MSP.txt",
+      "hash": "6bba89d946ff7ca17f1bee7d755224030896620b6307dd76319daa0a10536e02",
       "title": "bpressure - HDZero MSP OSD",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -184,11 +186,12 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/osd/bpressure_HD_MSP.txt",
-      "hash": "e12b583fbc9c20113dd6f5eb0725154102f106165fc94fac72d7b5c328e6a7df",
+      "fullPath": "presets/4.6/osd/bpressure_HD_MSP.txt",
+      "hash": "a5a4ed258d5faddc3ae79ce65549420150252b30afef3c856e96f43464f8a43d",
       "title": "bpressure - HD MSP OSD",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -199,12 +202,13 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/other/bpressure-others.txt",
-      "hash": "0f7ba332e9846c14c1f319b9b5832f9831c96dad4a228a946eef78f28257cfa6",
+      "fullPath": "presets/4.6/other/bpressure-others.txt",
+      "hash": "5f6a4ff7d620bda554968b742680fddc1bc8031c475cba35eff179deb9669ce4",
       "title": "bpressure - other settings",
       "firmware_version": [
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
@@ -212,26 +216,12 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/rates/bpressure.txt",
-      "hash": "c47fed6ae1599dadb124fd762d870c0321aa6ec3d831e9fd66c417f52196d572",
+      "fullPath": "presets/4.6/rates/bpressure.txt",
+      "hash": "161e6960ab9cf8efd61cbe86abf681a3ba12bca5471a980f6eb43b8b7b8c59c4",
       "title": "bpressure - rates",
       "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "author": "bpressure",
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/4.4/rates/bpressure30.txt",
-      "hash": "f60e618fd167dbc4fc1aeba07caf9514ffdae02b14e82d52fb8c2e4e10138b84",
-      "title": "bpressure - rates-30d-v2",
-      "firmware_version": [
-        "4.3",
-        "4.4"
+        "4.5",
+        "4.6"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
