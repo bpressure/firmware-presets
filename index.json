@@ -154,12 +154,26 @@
   },
   "presets": [
     {
+      "fullPath": "presets/4.6/modes/bpressure_modes-poshold.txt",
+      "hash": "547aa257f185f9f9391d079466af50ef11535396443078db61744dca84a6fc0b",
+      "title": "bpressure - modes -poshold",
+      "firmware_version": [
+        "4.6"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes"
+      ],
+      "author": "bpressure",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.6/modes/bpressure_modes.txt",
-      "hash": "232a9ed42141ba7ca074bd0d851cb6f3981cea77f24245ae2eea58d20f5d3ffc",
+      "hash": "af8c75ddb1bda6a9099a72223390f818b67e8acf9495ab6bb6cc87d4e180e2ff",
       "title": "bpressure - modes",
       "firmware_version": [
-        "4.5",
-        "4.6"
+        "4.5"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
